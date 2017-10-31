@@ -10,6 +10,18 @@
 	display: -webkit-inline-box;
 }
 
+.title {
+	width: 40%; 
+	font-size: 40px;
+}
+
+.nav {
+	color: white; 
+	width: 40%; 
+	padding-left: 20%; 
+	padding-top: 1%;
+}
+
 .nav-element {
 	vertical-align: -webkit-baseline-middle; 
 	color: white; 
@@ -24,4 +36,12 @@
    background-color: #000000;
    color: white;
    text-align: center;
+}
+
+.body {
+	background-size: cover;
+}
+
+.content {
+	height: 1000px;
 }

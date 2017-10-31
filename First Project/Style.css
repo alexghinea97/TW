@@ -1,0 +1,27 @@
+.header {
+	background-color: #000000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+	color: white;
+    padding-left: 5%;
+	height: 7%;
+	display: -webkit-inline-box;
+}
+
+.nav-element {
+	vertical-align: -webkit-baseline-middle; 
+	color: white; 
+	font-size: 25px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #000000;
+   color: white;
+   text-align: center;
+}

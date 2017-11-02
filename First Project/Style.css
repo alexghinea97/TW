@@ -1,6 +1,30 @@
+section {
+     overflow: hidden;
+     background-color: black;
+     margin-bottom: 30px;
+     padding-left: 5px;
+     padding-right: 5px;
+     padding-bottom: 20px;
+     border-bottom-left-radius: 2%;
+     border-top-left-radius: 2%;
+     border: 2px solid black;
+     box-shadow: 3px 3px 1px black;
+     height: 150px;
+ }
+
+ h1 {
+     margin-left: 10px;
+     font-size: 30px;
+     border-bottom-style: groove;
+     border-bottom-width: 1.5px;
+     border-bottom-color: white;
+     color: white;
+     font-weight: bold;
+     opacity: 0.7;
+ }
+
 .header {
 	background-color: #000000;
-    position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -28,6 +52,12 @@
 	font-size: 25px;
 }
 
+.responsive {
+     padding: 0 6px;
+     float: left;
+     width: 24.99999%;
+ }
+
 .footer {
    position: fixed;
    left: 0;
@@ -35,7 +65,9 @@
    width: 100%;
    background-color: #000000;
    color: white;
-   text-align: center;
+   text-align: left;
+   padding-left: 10%;
+   height: 25px;
 }
 
 .body {

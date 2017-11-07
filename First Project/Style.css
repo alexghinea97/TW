@@ -93,11 +93,9 @@ section {
      width: 24.99999%;
  }
 
-.footer {
-   position: fixed;
+footer {
    left: 0;
    bottom: 0;
-   width: 100%;
    background-color: #000000;
    color: white;
    text-align: left;
@@ -105,10 +103,37 @@ section {
    height: 25px;
 }
 
-.body {
+.footer-paragraph {
+	padding-top: 3px;
+}
+
+body {
 	background-size: cover;
+	background-image: url('background5.jpg');
 }
 
 .content {
 	height: 1000px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    width: 650px;
+    height: 350px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }

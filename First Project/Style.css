@@ -107,6 +107,19 @@ footer {
 	padding-top: 3px;
 }
 
+th {
+	width: 30%;
+	text-align: left;
+}
+
+td {
+	font-size: 20px;
+}
+
+.th-title {
+	font-size: 30px;
+}
+
 body {
 	background-size: cover;
 	background-image: url('background5.jpg');

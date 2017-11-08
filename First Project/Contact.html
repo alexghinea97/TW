@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ghinea Alexandru-Stefan">
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+    <title>ICode</title>
+</head>
+
+<body>
+
+    <header class="header">
+      <div class="title">ICode</div>
+
+     	<nav class="nav">
+    		<a href="Welcome.html" class="nav-element">Learn</a> |
+    		<a href="Welcome.html" class="nav-element">Catalog</a> |
+    		<a href="#" class="nav-element">Contact</a> |
+        <div class="nav-element dropdown">
+            <span>Menu</span>
+            <div class="dropdown-content">
+              <a href="Welcome.html" class="black-color">Learn</a><br>
+              <a href="Welcome.html" class="black-color">Catalog</a><br>
+              <a href="#" class="black-color">Contact</a><br>
+              <a href="#" class="black-color">About</a><br>
+            </div>
+        </div>        
+      </nav>
+    </header>
+
+    <section style="margin-top: 15%;">
+      <h1>Contact</h1>
+      <div class="container">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="usa">USA</option>
+              <option value="canada">Bulgaria</option>
+              <option value="usa">England</option>
+              <option value="usa">Romania</option>
+              <option value="usa">Rusia</option>
+              <option value="usa">Spain</option>
+              <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input formaction="Welcome.html" type="submit" value="Submit">
+          </form>
+      </div>
+      
+    </section>
+
+    <footer>
+        <p class="footer-paragraph">@ ICode</p>
+    </footer>
+
+</body>
+
+
+
+</html>
